@@ -13,4 +13,7 @@ string name;
 uint dna;
 }
 
+// Array
+Zombie[] public zombies;
+
 }
