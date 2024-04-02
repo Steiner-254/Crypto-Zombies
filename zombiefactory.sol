@@ -1,4 +1,4 @@
-// compiler version
+// compiler version (prevents errors that arise from future compiler versions)
 pragma solidity ^0.8.0;
 
 // contract declaration
