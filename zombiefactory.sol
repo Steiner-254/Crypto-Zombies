@@ -16,4 +16,8 @@ uint dna;
 // Array(s)
 Zombie[] public zombies;
 
+// function declaration
+function createZombie(string _name, uint _dna) {
+}
+
 }
