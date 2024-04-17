@@ -21,4 +21,3 @@ function createZombie(string _name, uint _dna) {
 }
 
 }
-
