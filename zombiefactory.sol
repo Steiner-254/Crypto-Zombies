@@ -13,7 +13,7 @@ string name;
 uint dna;
 }
 
-// Array
+// Array (s)
 Zombie[] public zombies;
 
 // function declaration
