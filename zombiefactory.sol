@@ -17,7 +17,7 @@ uint dna;
 Zombie[] public zombies;
 
 // function declaration
-function createZombie(string _name, uint _dna) {
+function _createZombie(string _name, uint _dna) private {
 // working with structs and arrays
 zombie.push(Zombie(_name, _dna));
 
