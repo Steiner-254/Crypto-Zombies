@@ -21,7 +21,7 @@ function _createZombie(string _name, uint _dna) private {
 // working with structs and arrays
 zombie.push(Zombie(_name, _dna));
 
-// More on Functions, Solidity Pure Vs View Function
+// More on Function(s), Solidity Pure Vs View Function
 function _generateRandomDna(string _str) private view returns (uint)
 
 }
