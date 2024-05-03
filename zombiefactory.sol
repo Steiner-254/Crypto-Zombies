@@ -7,13 +7,13 @@ contract ZombieFactory {
 uint dnaDigits = 16;
 uint dnaModulus = 10 ** dnaDigits;
 
-// Struct(s)
+// Struct
 struct Zombie {
 string name;
 uint dna;
 }
 
-// Array(s)
+// Array
 Zombie[] public zombies;
 
 // function declaration & making the function private
