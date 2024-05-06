@@ -19,6 +19,10 @@ uint dna;
 // Array(s)
 Zombie[] public zombies;
 
+// declare mappings here
+mapping (uint => address) public zombieToOwner;
+mapping (address => uint) ownerZombieCount;
+
 // function declaration & making the function private
 function _createZombie(string _name, uint _dna) private {
 // working with structs and arrays
