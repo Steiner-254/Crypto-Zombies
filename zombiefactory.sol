@@ -28,6 +28,9 @@ function _createZombie(string _name, uint _dna) private {
 // working with structs and arrays
 uint id = zombie.push(Zombie(_name, _dna)) -1;
 // fire the event here
+// Introducing Msg.sender (validating ownership and increasing security)
+zombieToOwner[id] = msg.sender;
+ownerZombieCount[msg.sender]++;
 NewZombie(id, _name, _dna);
 }
 
