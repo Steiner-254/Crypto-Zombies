@@ -43,6 +43,8 @@ return rand % dnaModulus;
 
 // Putting it together
 function createRandomZombie(string _name) public {
+// introducing require statements
+require(ownerZombieCount[msg.sender] == 0);
 uint randDna = _generateRandomDna(_name);
 _createZombie(_name, randDna);
 }
