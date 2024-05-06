@@ -4,6 +4,9 @@ pragma solidity ^0.8.0;
 // contract declaration
 contract ZombieFactory {
 
+// declare events here
+event NewZombie(uint zombieId, string name, uint dna)
+
 uint dnaDigits = 16;
 uint dnaModulus = 10 ** dnaDigits;
 
@@ -19,7 +22,9 @@ Zombie[] public zombies;
 // function declaration & making the function private
 function _createZombie(string _name, uint _dna) private {
 // working with structs and arrays
-zombie.push(Zombie(_name, _dna));
+uint id = zombie.push(Zombie(_name, _dna)) -1;
+// fire the event here
+NewZombie(id, _name, _dna);
 }
 
 // private view returns function
