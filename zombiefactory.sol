@@ -21,8 +21,9 @@ function _createZombie(string _name, uint _dna) private {
 // working with structs and arrays
 zombie.push(Zombie(_name, _dna));
 
-//
+// private view returns function
 function _generateRandomDna(string _str) private view returns (uint)
+// 
 
 }
 
