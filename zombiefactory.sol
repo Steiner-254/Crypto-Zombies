@@ -29,6 +29,10 @@ uint rand = uint (keccak256(_str));
 return rand % dnaModulus;
 }
 
-
+// Putting it together
+function createRandomZombie(string _name) public {
+uint randDna = _generateRandomDna(_name);
+_createZombie(_name, randDna);
+}
 
 }
