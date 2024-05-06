@@ -50,3 +50,8 @@ _createZombie(_name, randDna);
 }
 
 }
+
+// Introducing Inheritance
+contract ZombieFeeding is ZombieFactory {
+
+}
