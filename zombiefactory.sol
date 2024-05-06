@@ -7,7 +7,7 @@ contract ZombieFactory {
 uint dnaDigits = 16;
 uint dnaModulus = 10 ** dnaDigits;
 
-// Struct
+// Struct(s)
 struct Zombie {
 string name;
 uint dna;
@@ -21,7 +21,7 @@ function _createZombie(string _name, uint _dna) private {
 // working with structs and arrays
 zombie.push(Zombie(_name, _dna));
 
-// More on Function, Solidity Pure vs View Function
+//
 function _generateRandomDna(string _str) private view returns (uint)
 
 }
