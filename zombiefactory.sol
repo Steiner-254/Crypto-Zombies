@@ -49,9 +49,3 @@ uint randDna = _generateRandomDna(_name);
 _createZombie(_name, randDna);
 }
 
-}
-
-// Introducing Inheritance
-contract ZombieFeeding is ZombieFactory {
-
-}
