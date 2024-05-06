@@ -24,6 +24,8 @@ zombie.push(Zombie(_name, _dna));
 // private view returns function
 function _generateRandomDna(string _str) private view returns (uint)
 // Keccak256 & Typecasting
+uint rand = uint (keccak256(_str));
+return rand % dnaModulus;
 
 }
 
