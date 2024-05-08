@@ -10,7 +10,7 @@ event NewZombie(uint zombieId, string name, uint dna)
 uint dnaDigits = 16;
 uint dnaModulus = 10 ** dnaDigits;
 
-// Struct(s)
+// Struct
 struct Zombie {
 string name;
 uint dna;
