@@ -1,4 +1,4 @@
-// introducing import & imports in solidity
+// introducing import(s) in solidity
 pragma solidity ^0.8.0;
 
 // import here
