@@ -41,7 +41,7 @@ uint rand = uint (keccak256(_str));
 return rand % dnaModulus;
 }
 
-// Putting it together
+// putting the contract together
 function createRandomZombie(string _name) public {
 // introducing require statements
 require(ownerZombieCount[msg.sender] == 0);
