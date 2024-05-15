@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 // contract declaration
 contract ZombieFactory {
 
-// declare events here
+// declare event(s) here
 event NewZombie(uint zombieId, string name, uint dna)
 
 uint dnaDigits = 16;
